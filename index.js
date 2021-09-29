@@ -40,4 +40,4 @@ for (const file of player) {
     client.player.on(file.split(".")[0], event.bind(null, client));
 };
 
-client.login('ODg3ODI1MzUzOTQ1NTMwNDE4.YUJxyw.dung4ZOsaaz3Y6CTDoVl6wvKESA');
+client.login(process.env.TOKEN);
